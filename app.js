@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
 
 //Connect to DB
 mongoose.connect(
-  process.env.DB_CONNECTION,
+  'mongodb+srv://theinfinix500:anaali123.0@cluster0.2i8vw.mongodb.net/test',
   { useNewUrlParser: true, useUnifiedTopology: true },
   () => {
     console.log('Connected to DB');
